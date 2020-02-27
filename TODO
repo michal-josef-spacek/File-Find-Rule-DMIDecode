@@ -1,6 +1,8 @@
 TODO
 ====
-2.
+2. Pise mi to nejake warningy na souborech
+Hexadecimal number > 0xffffffff non-portable at /home/skim/perl5/lib/perl5/Parse/DMIDecode/Handle.pm line 115.
+3.
 
 Applied
 =======
