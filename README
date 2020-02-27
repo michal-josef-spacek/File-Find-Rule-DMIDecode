@@ -48,7 +48,7 @@ EXAMPLE
      # Usage: qr{[\w\/]+} dir
 
 DEPENDENCIES
-    File::Find::Rule, Parse::DMIDecode.
+    File::Find::Rule, Parse::DMIDecode, Perl6::Slurp.
 
 SEE ALSO
     File::Find::Rule

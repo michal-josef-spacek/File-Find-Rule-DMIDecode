@@ -4,8 +4,8 @@ use base qw(File::Find::Rule);
 use strict;
 use warnings;
 
-use Perl6::Slurp;
 use Parse::DMIDecode;
+use Perl6::Slurp;
 
 our $VERSION = 0.02;
 
@@ -91,7 +91,8 @@ See L<DMI on Wikipedia|https://en.wikipedia.org/wiki/Desktop_Management_Interfac
 =head1 DEPENDENCIES
 
 L<File::Find::Rule>,
-L<Parse::DMIDecode>.
+L<Parse::DMIDecode>,
+L<Perl6::Slurp>.
 
 =head1 SEE ALSO
 

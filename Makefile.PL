@@ -18,6 +18,7 @@ name 'File-Find-Rule-DMIDecode';
 readme_from 'DMIDecode.pm';
 recursive_author_tests('xt');
 requires 'Parse::DMIDecode' => 0;
+requires 'Perl6::Slurp' => 0;
 requires 'File::Find::Rule' => 0;
 requires 'perl' => '5.6.2';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
