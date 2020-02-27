@@ -8,7 +8,7 @@ use List::MoreUtils qw(any);
 use Parse::DMIDecode;
 use Perl6::Slurp;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Detect dmidecode file.
 sub File::Find::Rule::dmidecode_file {
@@ -167,6 +167,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
