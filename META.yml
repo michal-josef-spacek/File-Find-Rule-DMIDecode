@@ -19,6 +19,7 @@ meta-spec:
 name: File-Find-Rule-DMIDecode
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
