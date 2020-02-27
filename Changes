@@ -1,6 +1,7 @@
 0.02
  - Fix META.yml.
- - Fix dependencies.
+ - Fix dependencies. 
+ - LICENSE AND COPYRIGHT section in doc to my standard.
 
 0.01 2020-02-27T12:04:46+01:00
  - First version.
