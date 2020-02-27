@@ -7,7 +7,7 @@ use warnings;
 use Perl6::Slurp;
 use Parse::DMIDecode;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Detect dmidecode file.
 sub File::Find::Rule::dmidecode_file {
@@ -120,6 +120,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
