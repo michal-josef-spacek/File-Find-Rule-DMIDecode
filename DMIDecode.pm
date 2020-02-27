@@ -57,13 +57,11 @@ See L<DMI on Wikipedia|https://en.wikipedia.org/wiki/Desktop_Management_Interfac
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<dmidecode_file>
 
-=item C<dmidecode_file()>
+ my @files = File::Find::Rule->dmidecode_file->in($dir);
 
- The C<dmidecode_file()> rule detect dmidecode files by parsing of structure.
-
-=back
+The C<dmidecode_file()> rule detect dmidecode files by parsing of structure.
 
 =head1 EXAMPLE
 

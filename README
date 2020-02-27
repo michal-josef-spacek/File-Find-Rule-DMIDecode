@@ -22,8 +22,11 @@ DESCRIPTION
     <https://en.wikipedia.org/wiki/Desktop_Management_Interface>.
 
 SUBROUTINES
-    "dmidecode_file()"
-             The C<dmidecode_file()> rule detect dmidecode files by parsing of structure.
+  "dmidecode_file"
+     my @files = File::Find::Rule->dmidecode_file->in($dir);
+
+    The "dmidecode_file()" rule detect dmidecode files by parsing of
+    structure.
 
 EXAMPLE
      use strict;
