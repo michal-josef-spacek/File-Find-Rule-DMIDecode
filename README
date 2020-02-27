@@ -7,6 +7,7 @@ SYNOPSIS
      use File::Find::Rule::DMIDecode;
 
      my @files = File::Find::Rule->dmidecode_file->in($dir);
+     my @files = File::Find::Rule->dmidecode_handle($handle)->in($dir);
 
 DESCRIPTION
     This Perl module contains File::Find::Rule rules for detecting dmidecode
@@ -28,7 +29,12 @@ SUBROUTINES
     The "dmidecode_file()" rule detect dmidecode files by parsing of
     structure.
 
-EXAMPLE
+  "dmidecode_handle"
+     my @files = File::Find::Rule->dmidecode_handle($handle)->in($dir);
+
+    The "dmidecode_handle($handle)" rule detect dmidecode handle in file.
+
+EXAMPLE1
      use strict;
      use warnings;
 
@@ -50,8 +56,31 @@ EXAMPLE
      # Output like:
      # Usage: qr{[\w\/]+} dir
 
+EXAMPLE2
+     use strict;
+     use warnings;
+
+     use File::Find::Rule;
+     use File::Find::Rule::DMIDecode;
+
+     # Arguments.
+     if (@ARGV < 2) {
+             print STDERR "Usage: $0 dir handle\n";
+             exit 1;
+     }
+     my $dir = $ARGV[0];
+     my $handle = $ARGV[1];
+
+     # Print all dmidecode handles in directory.
+     foreach my $file (File::Find::Rule->dmidecode_handle($handle)->in($dir)) {
+             print "$file\n";
+     }
+
+     # Output like:
+     # Usage: qr{[\w\/]+} dir
+
 DEPENDENCIES
-    File::Find::Rule, Parse::DMIDecode, Perl6::Slurp.
+    File::Find::Rule, List::MoreUtils, Parse::DMIDecode, Perl6::Slurp.
 
 SEE ALSO
     File::Find::Rule

@@ -17,6 +17,7 @@ license 'bsd';
 name 'File-Find-Rule-DMIDecode';
 readme_from 'DMIDecode.pm';
 recursive_author_tests('xt');
+requires 'List::MoreUtils' => 0;
 requires 'Parse::DMIDecode' => 0;
 requires 'Perl6::Slurp' => 0;
 requires 'File::Find::Rule' => 0;

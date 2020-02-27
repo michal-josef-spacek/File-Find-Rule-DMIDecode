@@ -25,6 +25,7 @@ no_index:
     - xt
 requires:
   File::Find::Rule: 0
+  List::MoreUtils: 0
   Parse::DMIDecode: 0
   Perl6::Slurp: 0
   perl: 5.6.2
@@ -33,4 +34,4 @@ resources:
   homepage: https://github.com/michal-josef-spacek/File-Find-Rule-DMIDecode
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/File-Find-Rule-DMIDecode
-version: 0.03
+version: '0.03'
