@@ -77,7 +77,7 @@ EXAMPLE2
      }
 
      # Output like:
-     # Usage: qr{[\w\/]+} dir
+     # Usage: qr{[\w\/]+} dir handle
 
 DEPENDENCIES
     File::Find::Rule, List::MoreUtils, Parse::DMIDecode, Perl6::Slurp.

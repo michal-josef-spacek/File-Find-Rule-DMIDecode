@@ -130,7 +130,7 @@ The C<dmidecode_handle($handle)> rule detect dmidecode handle in file.
  }
 
  # Output like:
- # Usage: qr{[\w\/]+} dir
+ # Usage: qr{[\w\/]+} dir handle
 
 =head1 DEPENDENCIES
 

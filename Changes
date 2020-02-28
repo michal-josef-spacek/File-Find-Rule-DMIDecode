@@ -1,4 +1,5 @@
 0.04
+ - Fix example #2 in doc.
 
 0.03 2020-02-27T22:19:24+01:00
  - Add dmidecode_handle() method.
