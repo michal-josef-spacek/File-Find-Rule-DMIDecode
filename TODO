@@ -1,7 +1,8 @@
 TODO
 ====
-2. Pise mi to nejake warningy na souborech
-Hexadecimal number > 0xffffffff non-portable at /home/skim/perl5/lib/perl5/Parse/DMIDecode/Handle.pm line 115.
+2. Pise mi to nejake warningy na souborech pri pouziti findrule
+   Hexadecimal number > 0xffffffff non-portable at /home/skim/perl5/lib/perl5/Parse/DMIDecode/Handle.pm line 115.
+Problem je v tom, ze pro velke cisla se musi pouzivat misto hex() Math::BigInt->new($number_in_hex)
 5.
 
 Applied
