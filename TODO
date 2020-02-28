@@ -2,7 +2,6 @@ TODO
 ====
 2. Pise mi to nejake warningy na souborech
 Hexadecimal number > 0xffffffff non-portable at /home/skim/perl5/lib/perl5/Parse/DMIDecode/Handle.pm line 115.
-4. Implementovat vyhledavani DMI type
 5.
 
 Applied
@@ -12,3 +11,6 @@ OK [20200227] skim
 
 3. Implementovat vyhledavani handle
 OK [20200227] skim
+
+4. Implementovat vyhledavani DMI type
+OK [20200228] skim
