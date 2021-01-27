@@ -1,5 +1,6 @@
 0.05
  - Fix bugtracker.
+ - Update copyright years.
 
 0.04 2020-02-28T17:45:56+01:00
  - Add dmidecode_type() method.
