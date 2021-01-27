@@ -6,4 +6,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($File::Find::Rule::DMIDecode::VERSION, 0.05, 'Version.');
+is($File::Find::Rule::DMIDecode::VERSION, 0.06, 'Version.');
