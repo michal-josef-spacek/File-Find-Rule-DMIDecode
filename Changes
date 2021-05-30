@@ -1,4 +1,5 @@
 0.06
+ - Fix minimal version of Perl.
 
 0.05 2021-01-27T11:36:25+01:00
  - Fix bugtracker.
